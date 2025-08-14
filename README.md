@@ -12,6 +12,8 @@ See [1] for more information on updating your token.
 
 2. This script assumes that the subdirectories it is to check are a) subdirectories of the --dir parameter; b) five-digit numeric casenumbers. (See `pattern` regex in script code.)
 
+3. Python environment requires the Zenpy module and any prerequisites thereof.
+
 In summary, as long as you properly configure `--dir`, `--email`, and `--token` (or provide them on the command line), you should be good to go.
 
 [1] https://developer.zendesk.com/api-reference/ticketing/oauth/grant_type_tokens/?utm_source=marketo&utm_medium=transactional_email&utm_campaign=PROD_Expiration_tokens_WW_2025&mkt_tok=ODE5LVJSUS0wNjAAAAGa8_b9ch7Dm0-tPIWR1KPD7guiI7_tNS99STB5pJKjgmAN7mggPmFnsmXZ3HF2gwfK3wj1-nwO6sIS5Lk4DJ3EOT3J-O7J6-brUH5HGDDUSg
